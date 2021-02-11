@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Таймер</string>
+    <string name="welcome">Привет в Таймере</string>
+    <string name="theme">Ночная/Дневная тема</string>
+    <string name="size">Увеличить шрифт</string>
+    <string name="create">Таймер</string>
+    <string name="changeLang">Поменять язык</string>
+    <string name="preparation">Подготовка</string>
+    <string name="work">Работа</string>
+    <string name="name">Имя</string>
+    <string name="rest">Отдых</string>
+    <string name="cycles">Круги</string>
+    <string name="calm">Успокоиться</string>
+    <string name="add">Добавить</string>
+    <string name="save">Сохранить</string>
+    <string name="settings">Настройки</string>
+    <string name="training">Тренировка</string>
+    <string name="add_string">+</string>
+    <string name="Minus">-</string>
+    <string name="set">Сеты</string>
+    <string name="Yes">Да</string>
+    <string name="delete">Удалить</string>
+    <string name="start">Начать</string>
+    <string name="Update">Обновить</string>
+    <string name="No">Нет</string>
+    <string name="SaveMess">Сохранить?</string>
+    <string name="TimerName">Название</string>
+    <string name="addTimer">Добавить таймер</string>
+    <string name="menu">Таймер меню</string>
+</resources>

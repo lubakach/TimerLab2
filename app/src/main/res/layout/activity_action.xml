@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ActionActivity">
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="70dp"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_countdown"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="73dp"
+        android:text="start" />
+
+    <TextView
+        android:id="@+id/text_preparation"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="270dp"
+        android:text="@string/preparation"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/prep_ans"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="272dp"
+        android:layout_toEndOf="@+id/text_preparation" />
+
+    <TextView
+        android:id="@+id/text_work"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="229dp"
+        android:text="@string/work"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/work_ans"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="225dp" />
+
+    <TextView
+        android:id="@+id/text_rest"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="181dp"
+        android:text="@string/rest"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/rest_ans"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="180dp" />
+
+    <TextView
+        android:id="@+id/text_cycle"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="132dp"
+        android:text="@string/cycles"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cycle_ans"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="132dp" />
+
+    <TextView
+        android:id="@+id/text_calm"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/calm"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/calm_ans"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="84dp" />
+
+    <TextView
+        android:id="@+id/name_txt"
+        android:layout_width="255dp"
+        android:layout_height="48dp"
+        android:layout_above="@+id/text_preparation"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/name"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_section"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="70dp"
+        android:text="Section"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_start_pause"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="71dp"
+        android:text="Next" />
+
+
+</RelativeLayout>
